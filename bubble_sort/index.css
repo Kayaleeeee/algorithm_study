@@ -1,0 +1,107 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+.container {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 500px;
+  /* border: 1px solid black; */
+  /* margin: auto; */
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  margin: auto;
+  justify-content: center;
+}
+
+.show {
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  width: 800px;
+}
+
+.s_num_block {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.s_num_block h1 {
+  padding: 1rem;
+}
+
+.num_block {
+  display: flex;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: coral;
+}
+
+.num_block h1 {
+  padding: 1rem;
+}
+
+.head h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+input {
+  margin: 0;
+  width: 25rem;
+  height: 2rem;
+}
+input:focus {
+  outline: none;
+}
+
+.btn {
+  margin: 1rem;
+  padding: 1rem;
+  width: 8rem;
+  background: none;
+  border-radius: 8px;
+}
+
+.sort {
+  border: 1px solid darkolivegreen;
+}
+.sort:hover {
+  background-color: darkolivegreen;
+}
+
+.init {
+  border: 1px solid orange;
+  /* color: yellow; */
+}
+.init:hover {
+  background-color: orange;
+}
+
+.btn:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:focus,
+.btn:active {
+  width: 8.5rem;
+  outline: none;
+}
+
+.btn_block {
+  display: inline-flex;
+}
+
+#sorted_arr {
+  display: inline-flex;
+}
