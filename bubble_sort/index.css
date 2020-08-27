@@ -15,7 +15,7 @@
 .head {
   display: flex;
   flex-direction: column;
-  height: 30%;
+  /* height: 30%; */
   margin: auto;
   justify-content: center;
 }
@@ -25,6 +25,8 @@
   display: flex;
   justify-content: center;
   width: 800px;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
 }
 
 .s_num_block {
@@ -56,7 +58,7 @@
 }
 
 input {
-  margin: 0;
+  margin-bottom: 3rem;
   width: 25rem;
   height: 2rem;
 }
@@ -100,8 +102,18 @@ input:focus {
 
 .btn_block {
   display: inline-flex;
+  padding: 3rem;
 }
 
-#sorted_arr {
-  display: inline-flex;
+.new_div {
+  display: flex;
+}
+
+.sort_title {
+  margin: 3rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  /* border: 1px solid black; */
 }
