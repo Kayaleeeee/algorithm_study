@@ -6,5 +6,6 @@
 
 ## 프로젝트 리스트
 
-<br/>
-### Bubble Sort
+### Sort (정렬)
+
+- Bubble Sort 버블 정렬
